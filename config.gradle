@@ -1,0 +1,47 @@
+ext {
+    appV4Version = "23.1.1"
+    retrofitVersion = "2.0.0-beta3"
+    loggingInterceptorVersion = "3.1.2"
+    appcompatV7Version = "23.1.1"
+    sqlBriteVersion = "0.6.2"
+    rxjavaVersion = "1.1.0"
+    daggerVersion = "2.0.2"
+    jsr250Version = "1.0"
+    butterknifeVersion = "7.0.1"
+    frescoVersion = "0.9.0"
+    autoparcelVersion = "0.3.1"
+    avosSdkVersion = "v3.+"
+
+    android =
+            [
+                    compileSdkVersion: 23,
+                    buildToolsVersion: "23.0.1",
+                    minSdkVersion    : 11,
+                    targetSdkVersion : 23,
+                    versionCode      : 1,
+                    versionName      : "1.0",
+                    applicationId    : "com.okline.vboss.oule"
+
+            ]
+
+    dependencies =
+            [
+                    appV4                     : "com.android.support:support-v4:${appV4Version}",
+                    appcompatv7               : "com.android.support:appcompat-v7:${appcompatV7Version}",
+                    retrofit                  : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+                    retrofitConverterGson     : "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
+                    retrofitAdapterRxjava     : "com.squareup.retrofit2:adapter-rxjava:${retrofitVersion}",
+                    retrofitLoggingInterceptor: "com.squareup.okhttp3:logging-interceptor:${loggingInterceptorVersion}",
+                    sqlBrite                  : "com.squareup.sqlbrite:sqlbrite:${sqlBriteVersion}",
+                    rxjava                    : "io.reactivex:rxjava:${rxjavaVersion}",
+                    rxandroid                 : "io.reactivex:rxandroid:${rxjavaVersion}",
+                    daggerCompiler            : "com.google.dagger:dagger-compiler:${daggerVersion}",
+                    dagger                    : "com.google.dagger:dagger:${daggerVersion}",
+                    jsr250                    : "javax.annotation:jsr250-api:${jsr250Version}",
+                    butterknife               : "com.jakewharton:butterknife:${butterknifeVersion}",
+                    fresco                    : "com.facebook.fresco:fresco:${frescoVersion}",
+                    autoparcel                : "com.github.frankiesardo:auto-parcel:${autoparcelVersion}",
+                    autoparcelCompiler        : "com.github.frankiesardo:auto-parcel-processor:${autoparcelVersion}",
+                    avosSdk                   : "cn.leancloud.android:avoscloud-sdk:${avosSdkVersion}"
+            ]
+}

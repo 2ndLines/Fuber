@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="drawer_open">打开抽屉</string>
+    <string name="drawer_close">关闭抽屉</string>
+    <string name="item_hository">历史纪录</string>
+    <string name="item_help">帮助</string>
+    <string name="item_recommend">推荐</string>
+    <string name="item_notification">通知</string>
+    <string name="item_setting">设置</string>
+    <string name="about">关于</string>
+    <string name="item_about">关于</string>
+</resources>
