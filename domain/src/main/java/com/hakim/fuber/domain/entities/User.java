@@ -8,4 +8,5 @@ package com.hakim.fuber.domain.entities;
  * Desc :
  */
 public class User {
+
 }

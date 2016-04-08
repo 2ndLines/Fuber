@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
     @Bind(R.id.left_drawer)
     ListView drawerList;
 
-    SimpleDraweeView avatar;
-    TextView nickname;
+    private SimpleDraweeView avatar;
+    private TextView nickname;
 
     private ActionBarDrawerToggle drawerToggle;
     private Toolbar toolbar;
